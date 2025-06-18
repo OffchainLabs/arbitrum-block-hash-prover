@@ -1,5 +1,5 @@
 {
-  "name": "block-hash-prover-template",
+  "name": "arbitrum-block-hash-prover",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
     "clean": "hardhat clean && rm -rf wagmi && rm -rf dist",
     "test": "yarn build && hardhat test"
   },
-  "repository": "https://github.com/OffchainLabs/block-hash-prover-template/",
+  "repository": "https://github.com/OffchainLabs/arbitrum-block-hash-prover/",
   "license": "MIT",
   "devDependencies": {
     "@arbitrum/nitro-contracts": "^3.1.0",
